@@ -175,3 +175,35 @@ img {
 .blue {
   border-top: 8px solid #66d9eb;
 }
+
+.preco {
+  background-color: #f7f7f7;
+  display: flex;
+}
+
+.preco-item {
+  border: 4px solid #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 60px;
+  margin: 60px;
+}
+
+.preco-item h2 {
+  font-size: 3rem;
+  color: #a4a4a4;
+}
+.preco-item span {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.preco-item a {
+  color: #000000;
+  border: 4px solid #000000;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 10px 40px;
+  text-transform: uppercase;
+}
