@@ -301,3 +301,19 @@ img {
   font-size: 1.25rem;
   line-height: 1.4;
 }
+
+.newsletter {
+  background-color: #f7f7f7;
+  display: flex;
+}
+
+.newsletter-info {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.newsletter-info h1 {
+  color: #a4a4a4;
+  font-size: 3rem;
+  font-weight: 700;
+}
